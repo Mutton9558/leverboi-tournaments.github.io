@@ -1,8 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  basePath: "/leverboi-tournaments.github.io",
+  assetPrefix: "/leverboi-tournaments.github.io/",
 };
 
-export default nextConfig;
+module.exports = nextConfig;

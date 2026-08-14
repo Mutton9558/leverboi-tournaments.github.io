@@ -25,7 +25,7 @@ export default function spt_one(){
             <Header isHome = {false}></Header>
             <main className="relative z-10 max-w-4xl mx-auto py-20 mt-20 flex justify-center items-center flex-col text-white px-4">
                 
-                <div className="w-3/4 p-4 flex items-center font-mono mb-16 flex-col bg-black/40">
+                <div className="w-screen md:w-3/4 p-4 flex items-center font-mono mb-16 flex-col bg-black/40">
                     <h1 className="text-md lg:text-3xl font-semibold">Stronghold Protocol Tournament</h1>
                     <p className="flex">Game: <span className="font-bold ml-2">Arknights</span></p>
                     <p>22 May 2026 - 25 May 2026</p>

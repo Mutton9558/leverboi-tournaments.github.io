@@ -15,16 +15,16 @@ export const Header = ({isHome}: HeaderProp) => {
 
     function handleRedirect(e: React.MouseEvent<HTMLButtonElement>){
         e.preventDefault();
-        router.push(isHome ? '/spt_one' : '/');
+        router.push(isHome ? '/spt1' : '/');
     }
 
     return(
         <div className="w-screen h-28 bg-secondary position: absolute">
             <div id="header-left" className="flex flex-row h-full items-center relative float-left ml-4">
-                <div className="relative md:w-24 md:h-24 w-12 h-12">
+                <div className="relative md:w-24 md:h-24 w-8 h-8">
                     <img src="/images/LeverThink.png" alt="LeverTournamentsLogo" className="absolute inset-0 w-full h-full object-cover rounded-lg" />
                 </div>
-                <h1 className="ml-4 text-foreground text-lg md:text-3xl font-bold font-mono tracking-wide">LeverBoi Tournaments</h1>
+                <h1 className="ml-4 text-foreground text-sm md:text-3xl font-bold font-mono tracking-wide">LeverBoi Tournaments</h1>
             </div>
             <div className="relative flex items-center h-full mr-16 float-end">
                 <div className="group">

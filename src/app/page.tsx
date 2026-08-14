@@ -28,13 +28,13 @@ export default function Home() {
           
         )}
         <div id="subpanel-1" className="flex flex-row justify-center items-center p-4">
-          <div id="img" className={`relative w-36 h-36 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+          <div id="img" className={`relative w-12 h-12 md:w-36 md:h-36 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
             <img ref={imgRef} src="/images/FlametailCry.png" alt="flametail-cry" className="absolute inset-0 w-full h-full object-cover rounded-lg" onLoad={() => setIsLoaded(true)} fetchPriority="high"/>
           </div>
           <div className={`flex flex-col ml-16 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
-            <h1 className="font-mono text-5xl font-bold">No planned tourneys</h1>
+            <h1 className="font-mono text-3xl lg:text-5xl font-bold">No planned tourneys</h1>
             <div className="m-2"></div>
-            <h1 className="font-mono text-5xl font-bold">at the moment.</h1>
+            <h1 className="font-mono text-3xl lg:text-5xl font-bold">at the moment.</h1>
           </div>
         </div>
       </div>

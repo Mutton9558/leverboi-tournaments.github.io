@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Footer(){
     return(
-        <div className="w-screen h-12 bg-secondary position: absolute bottom-0">
+        <div className="overflow-x-hidden w-full h-12 bg-secondary position:absolute bottom-0">
             <div id="header-left" className="hidden lg:flex flex-row h-full items-center relative float-left ml-4">
                 <div className="relative w-6 h-6">
                     <img src="copyright.svg" alt="copyright logo" className="absolute inset-0 w-full h-full object-cover rounded-lg" />

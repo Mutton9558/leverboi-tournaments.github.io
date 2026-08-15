@@ -21,12 +21,12 @@ export const Header = ({isHome}: HeaderProp) => {
     return(
         <div className="w-screen h-28 bg-secondary position: absolute">
             <div id="header-left" className="flex flex-row h-full items-center relative float-left ml-4">
-                <div className="relative md:w-24 md:h-24 w-8 h-8">
-                    <img src="/images/LeverThink.png" alt="LeverTournamentsLogo" className="absolute inset-0 w-full h-full object-cover rounded-lg" />
+                <div className="relative md:w-24 md:h-24 w-12 h-12">
+                    <img onClick={() => {router.push("/")}} src="/images/LeverThink.png" alt="LeverTournamentsLogo" className="absolute inset-0 w-full h-full object-cover rounded-lg cursor-pointer" />
                 </div>
-                <h1 className="ml-4 text-foreground text-sm md:text-3xl font-bold font-mono tracking-wide">LeverBoi Tournaments</h1>
+                <h1 className="ml-4 text-foreground text-md md:text-3xl font-bold font-mono tracking-wide">LeverBoi Tournaments</h1>
             </div>
-            <div className="relative flex items-center h-full mr-16 float-end">
+            <div className="relative flex items-center h-full mr-8 lg:mr-16 float-end">
                 <div className="group">
                     <button className="relative font-mono text-foreground lg:text-2xl cursor-pointer hidden lg:flex" onClick={handleRedirect}>
                         {isHome ? "Previous Tournaments" : "Upcoming and Ongoing Tournaments"}

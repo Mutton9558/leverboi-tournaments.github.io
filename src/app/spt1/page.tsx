@@ -24,9 +24,8 @@ export default function spt_one(){
             <div className="fixed inset-0 -z-10 bg-[url('/images/spt1.png')] bg-cover bg-center opacity-40" />
             <Header isHome = {false}></Header>
             <main className="relative z-10 max-w-4xl mx-auto py-20 mt-20 flex justify-center items-center flex-col text-white px-4">
-                
                 <div className="w-screen md:w-3/4 p-4 flex items-center font-mono mb-16 flex-col bg-black/40">
-                    <h1 className="text-md lg:text-3xl font-semibold">Stronghold Protocol Tournament</h1>
+                    <h1 className="text-md lg:text-3xl font-bold">Stronghold Protocol Tournament 1</h1>
                     <p className="flex">Game: <span className="font-bold ml-2">Arknights</span></p>
                     <p>22 May 2026 - 25 May 2026</p>
                     <p>1:30 AM - 9:30 AM UTC</p>
@@ -39,7 +38,7 @@ export default function spt_one(){
                         params="controls=1&loop=1&start=321" 
                     />
                 </div>
-                <p className="font-mono text-sm">Stronghold Protocol Tournament Finale: The Gang vs IS Central</p>
+                <p className="font-mono text-sm">Stronghold Protocol Tournament Finale: The Gang vs Join IS Central</p>
 
                 {!isLoaded && (
                     <h1>Loading brackets and winners...</h1>
@@ -67,7 +66,7 @@ export default function spt_one(){
                         fetchPriority="high"
                     />
                 </div> 
-                <p className="font-mono text-sm flex">Winners: <span className="font-bold ml-2">IS CENTRAL</span></p>
+                <p className="font-mono text-sm flex">Players: <span className="font-bold ml-2">Cube, Bait, Alyssal, Mangopies</span></p>
             </main>
             <Footer></Footer>
         </div>

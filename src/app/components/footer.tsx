@@ -9,7 +9,7 @@ export default function Footer(){
                 </div>
                 <h1 className="ml-2 text-foreground text-lg font-mono tracking-wide">MIT License | Website made by Mutton9558</h1>
             </div>
-            <div className="relative flex items-center h-full mr-16 float-end">
+            <div className="relative flex items-center h-full mr-16 lg:float-end">
                 <div id="socials" className="flex flex-row items-center h-full">
                     <a className="cursor-pointer" href="https://www.youtube.com/@LeverBoi" target="_blank" rel="noopener noreferrer">
                         <div className="relative w-8 h-8 ml-2 mr-2">

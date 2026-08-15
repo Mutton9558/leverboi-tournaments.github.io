@@ -21,13 +21,13 @@ export default function Home() {
     <div id="home-page" className="max-w-full overflow-x-hidden min-h-screen">
       <Header isHome={true}></Header>
       <div className="w-full flex flex-col mt-4">
-        <div className="w-full flex justify-center items-center flex-col mt-8 mb-8 lg:mb-24">
+        {/* <div className="w-full flex justify-center items-center flex-col mt-8 mb-8 lg:mb-24">
           <div className="flex flex-row items-center justify-center">
             <img src="/images/FlametailWow.png" className="w-12 h-12 lg:w-24 lg:h-24 object-cover rounded-lg mr-4"/>
             <h1 className="text-lg lg:text-5xl font-mono font-bold mb-4 underline pointer-events-none">Ongoing Tournaments!</h1>
           </div>
           <p className="font-mono text-white/80 pointer-events-none">No tournaments rn lol &gt;w&lt;</p>
-        </div>
+        </div> */}
         
         <div className="w-full flex justify-center items-center flex-col mb-8 lg:mb-24">
           <div className="flex flex-row items-center justify-center">

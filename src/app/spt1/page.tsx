@@ -23,7 +23,7 @@ export default function spt_one(){
         <div className="min-h-screen relative overflow-x-hidden">
             <div className="fixed inset-0 -z-10 bg-[url('/images/spt1.png')] bg-cover bg-center opacity-40" />
             <Header isHome = {false}></Header>
-            <main className="relative z-10 max-w-4xl mx-auto py-20 mt-20 flex justify-center items-center flex-col text-white px-4">
+            <main className="relative z-10 max-w-4xl mx-auto py-20 flex justify-center items-center flex-col text-white px-4">
                 <div className="w-screen md:w-3/4 p-4 flex items-center font-mono mb-16 flex-col bg-black/40">
                     <h1 className="text-md lg:text-3xl font-bold">Stronghold Protocol Tournament 1</h1>
                     <p className="flex">Game: <span className="font-bold ml-2">Arknights</span></p>
